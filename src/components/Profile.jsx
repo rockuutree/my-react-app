@@ -35,7 +35,7 @@ const ProfileMe = () => {
       <div className="recent-interests">
         <h2>Recent Interests</h2>
         <div className="interests-list">
-          {['Automation', 'Kpop', 'Artificial Intelligence', 'Machine Learning', 'LLM Technology', 'Social Impact', 'Animals', 'Embroidery', 'Robotics' ].map((interest, index) => (
+          {['Automation', 'Kpop', 'Artificial Intelligence', 'Machine Learning', 'LLM Technology', 'Social Impact', 'Animals', 'Embroidery', 'Robotics', 'Neurotech', 'Food' ].map((interest, index) => (
             <span key={index} className="interest-tag">{interest}</span>
           ))}
         </div>
