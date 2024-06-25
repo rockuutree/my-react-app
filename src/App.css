@@ -8,12 +8,14 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .profile {
   background-color: #2d3748;
   border-radius: 8px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .status-music {
@@ -61,6 +63,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition: 200ms ease-in-out;
+  flex-shrink: 0;
 }
 
 .profile-picture:hover {
@@ -128,6 +131,7 @@ h2 {
 .logo-container {
   width: 40%;
   padding: 16px;
+  box-sizing: border-box;
 }
 
 .company-logo {
@@ -140,6 +144,7 @@ h2 {
 .work-details {
   width: 60%;
   padding: 16px;
+  box-sizing: border-box;
 }
 
 .company-name {
@@ -158,7 +163,15 @@ h2 {
   font-size: 14px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .profile {
+    padding: 15px;
+  }
+
   .status-music {
     flex-direction: column;
     align-items: flex-start;
@@ -175,5 +188,13 @@ h2 {
 
   .logo-container {
     padding-bottom: 0;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+
+  .social-links a {
+    font-size: 14px;
   }
 }
