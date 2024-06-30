@@ -64,6 +64,13 @@ const ProfileMe = () => {
           description="Collaborated with T-Mobile Engineers to develop products for improving customer communication and support. Designed a React.js widget that offers instant customer call support with OpenAI summarization, Speech-to-Text audio transcription, and email integration capabilities."
           logoUrl={require("../assets/tmobile.png")}
         />
+        <h2>Side Quests</h2>
+        <Projects 
+          link=""
+          company="My Dog!"
+          description="Very cute and cuddly."
+          logoUrl={require("../assets/coco.png")}
+        />
       </div>
     </div>
   );
