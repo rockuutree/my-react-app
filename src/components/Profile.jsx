@@ -10,7 +10,7 @@ const ProfileMe = () => {
         <div className="status">Status: Interning in Seattle!</div>
         <div className="music">
           <Music size={16} />
-          <span>Like We Used To, by The Rose</span>
+          <span>Deja Vu, by TOMORROW x TOGETHER</span>
         </div>
       </div>
       
